@@ -4,10 +4,9 @@
   "description": "A single-page PWA built with React and Bun, using localStorage for data persistence",
   "type": "module",
   "scripts": {
-    "dev": "bun run --hot src/index.tsx",
-    "build": "bun build ./src/index.tsx --outdir ./dist",
-    "preview": "bun run dist/index.js",
-    "type-check": "tsc --noEmit"
+    "dev": "bun run --hot todo-app.jsx",
+    "build": "bun build todo-app.jsx --outdir ./dist",
+    "preview": "bun run dist/index.js"
   },
   "dependencies": {
     "react": "^18.2.0",
