@@ -1,1 +1,22 @@
-{\n  \"name\": \"react-pwa-bun\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A single-page PWA built with React and Bun, using localStorage for data persistence\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"bun run --hot src/index.tsx\",\n    \"build\": \"bun build ./src/index.tsx --outdir ./dist\",\n    \"preview\": \"bun run dist/index.js\",\n    \"type-check\": \"tsc --noEmit\"\n  },\n  \"dependencies\": {\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\"\n  },\n  \"devDependencies\": {\n    \"@types/bun\": \"latest\",\n    \"@types/react\": \"^18.2.0\",\n    \"@types/react-dom\": \"^18.2.0\",\n    \"typescript\": \"^5.0.0\"\n  }\n}\n
+{
+  "name": "react-pwa-bun",
+  "version": "1.0.0",
+  "description": "A single-page PWA built with React and Bun, using localStorage for data persistence",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.tsx",
+    "build": "bun build ./src/index.tsx --outdir ./dist",
+    "preview": "bun run dist/index.js",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
