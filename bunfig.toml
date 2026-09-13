@@ -1,0 +1,9 @@
+# Bun configuration file
+
+[install]
+# Use yarn-style lockfile
+frozen = false
+
+[run]
+# Bun run configuration
+root = "."
